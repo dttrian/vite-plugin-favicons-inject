@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-favicons-inject",
+  "name": "vite-plugin-favicons-inject-trian",
   "version": "2.2.0",
   "description": "A Vite plugin for creating and injecting favicons during the application build!",
   "main": "dist/cjs/index.js",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/JohnPremKumar/vite-plugin-favicons-inject.git"
+    "url": "git://github.com/dttrian/vite-plugin-favicons-inject.git"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -49,6 +49,6 @@
   "author": "John Prem Kumar S",
   "license": "MIT",
   "dependencies": {
-    "favicons": "^7.0.0-beta.4"
+    "favicons-trian": "^7.2.0"
   }
 }
