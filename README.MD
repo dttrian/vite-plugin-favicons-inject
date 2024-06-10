@@ -1,24 +1,30 @@
 # Important
 
-This is a fork of version 2.2.0 of https://github.com/JohnPremKumar/vite-plugin-favicons-inject aiming to provide support for relative paths in the generated HTML by using, as a dependency, `favicons-trian` () instead of the original `favicon` (https://www.npmjs.com/package/favicons).
+This is a fork of version 2.2.0 of https://github.com/JohnPremKumar/vite-plugin-favicons-inject aiming to provide support for relative paths in the generated HTML by using, as a dependency, `@dttrian/favicons` (https://github.com/dttrian/favicons) instead of the original `favicon` (https://www.npmjs.com/package/favicons).
 
 The use case for which this fork has been produced is the following: for an application not to be published in the root of the website (e.g. https://www.website.com/) but in a subpath (e.g. https://www.website.com/myapp), the links generated for the manifest file and the generated HTML should be relative.
 While for `manifest.webmanifest` this can be achieved by setting the `manifestRelativePaths` option to true, there is no way in the original version of favicon to have the same kind of result for the generated HTML.
 In other words, it is only possible to obtain something like:
 
+```
 <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+```
+
 while it would be needed something like:
+
+```
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+```
 
 For this reasons this fork has been created.
 
 In the following, it has been reported, unmodified, the original readme of vite-plugin-favicons-inject 2.2.0.
 Notice that:
 
-- since its name has been changed to vite-plugin-favicons-inject-trian, to install this package, the correct command is:
+- since the name of this fork's package is @dttrian/vite-plugin-favicons-inject, to install this package, the correct command is:
 
 ```
-npm install vite-plugin-favicons-inject-trian
+npm install @dttrian/vite-plugin-favicons-inject
 ```
 
 vite-plugin-favicons-inject

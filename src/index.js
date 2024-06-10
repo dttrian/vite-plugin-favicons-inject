@@ -1,4 +1,4 @@
-const favicons = require('favicons-trian');
+const favicons = require('@dttrian/favicons');
 const fs = require('fs');
 const path = require('path');
 

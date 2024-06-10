@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-favicons-inject-trian",
+  "name": "@dttrian/vite-plugin-favicons-inject",
   "version": "2.2.0",
   "description": "A Vite plugin for creating and injecting favicons during the application build!",
   "main": "dist/cjs/index.js",
@@ -49,6 +49,6 @@
   "author": "John Prem Kumar S",
   "license": "MIT",
   "dependencies": {
-    "favicons-trian": "^7.2.0"
+    "@dttrian/favicons": "^7.2.0"
   }
 }
